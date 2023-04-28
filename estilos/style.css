@@ -31,6 +31,9 @@ header>h1{
     text-align:center;
     font:bold 5em 'pacifico', arial, sans-serif;
 }
+#hora{
+    font:bolder 2.5em arial, helvetica, sans-serif;
+}
 body{
 
 }
