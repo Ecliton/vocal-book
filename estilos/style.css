@@ -32,18 +32,47 @@ header>h1{
     font:bold 5em 'pacifico', arial, sans-serif;
 }
 body{
-    background-color:var(--cor2)
+
 }
 main{
-    height:100vh;
     background-color: rgb(255, 255, 255);
     max-width:1000px;
     min-width:250px;
-    margin:auto
+    margin:auto;
+    padding-top:30px;
 }
-div#logo{
+section> p{
 
-    position:absolute;
-    background-image: url('../imagens/logo-do-app-tp.png');
-
+    display:inline-block;
+    height: 100px;
+    width: 400px;
+    /*border:1px solid black;*/
+    font:300 3em arial, helvetica, sans-serif;
+    text-indent:10px;
+    text-align:center;
+    vertical-align: 150px;
+    
+}
+section>img{
+    display: inline-block;
+    margin-bottom:50px;
+    width:300px;
+}
+#meio p{
+    display:inline-block;
+    height: 100px;
+    width: 400px;
+    /*border:1px solid black;*/
+    font:300 3em arial, helvetica, sans-serif;
+    text-indent:10px;
+    text-align:center;
+    vertical-align: 150px;
+}
+#meio img{
+    display: inline-block;
+    margin-bottom:50px;
+    width:300px;
+}
+#meio>div{
+    float:right;
 }
